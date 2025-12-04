@@ -19,7 +19,7 @@ class _EmsiChatbotPageState extends State<EmsiChatbotPage> {
     
     // URL de votre application Streamlit
     // Par défaut, Streamlit tourne sur http://localhost:8501
-    const String streamlitUrl = 'http://172.20.10.2:8501';
+    const String streamlitUrl = 'http://192.168.137.230:8501';
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setNavigationDelegate(
