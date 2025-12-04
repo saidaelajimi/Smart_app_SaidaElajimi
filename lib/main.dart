@@ -4,6 +4,7 @@ import 'screens/home_page.dart';
 import 'screens/login_page.dart';
 import 'screens/register_page.dart';
 import 'screens/fruits_classification.dart';
+import 'screens/emsi_chatbot_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Bousmah_App',
+      title: 'Flutter Elajimi_App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/register': (context) => RegisterPage(),
         '/home': (context) => HomePage(),
         '/fruits': (context) => FruitsClassificationPage(),
+        '/chatbot': (context) => EmsiChatbotPage(),
       },
     );
   }
