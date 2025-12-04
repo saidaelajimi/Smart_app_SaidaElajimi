@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158649321104",
+    "project_id": "saidaelajimiflutterapp",
+    "storage_bucket": "saidaelajimiflutterapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158649321104:android:b3dbcf2b935b7a028d7a15",
+        "android_client_info": {
+          "package_name": "com.example.smart_app_saidaelajimi_g8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPKIheX5zzWjJGMZ0aO9sxyXr_0H5JoOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
